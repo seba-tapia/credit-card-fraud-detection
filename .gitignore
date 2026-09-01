@@ -1,0 +1,25 @@
+# Dataset (pesado y con datos sensibles de origen — se descarga aparte)
+creditcard.csv
+
+# Modelos entrenados serializados
+*.pkl
+*.joblib
+
+# Resultados de scoring generados por predict.py / predict_en.py
+resultados_scoring.csv
+scoring_results.csv
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Checkpoints y cachés de Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Archivos de sistema operativo / editor
+.DS_Store
+.vscode/
+.idea/
